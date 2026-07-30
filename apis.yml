@@ -1,7 +1,14 @@
 aid: medley
 name: Medley
-description: Medley is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Medley is a leadership development company that delivers group-based executive
+  coaching at enterprise scale, pairing professional coaches with AI-enabled
+  tooling to bring quality and a human touch to Fortune 500 organizations.
+  Founded in 2020 by Edith Cooper and Jordan Taylor, the platform runs curated
+  small-group coaching cohorts focused on trust, empathy, communication, and
+  collaboration to drive organizational transformation. Medley raised a $3.7M
+  seed round led by Andreessen Horowitz (a16z). It operates as a B2B services
+  and coaching platform and does not currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/medley/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +16,48 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/631f915c5b733532a18ff9eb/635b0085c41c461b9a674d38_Open%20Graph.png
 tags:
 - Company
+- Leadership Development
+- Coaching
+- Enterprise
+- Human Resources
+- Professional Development
+- Learning
 apis: []
+common:
+- type: DomainSecurity
+  url: security/medley-domain-security.yml
+- type: Website
+  url: https://www.withmedley.com
+- type: Portal
+  url: https://portal.withmedley.com/
+- type: PrivacyPolicy
+  url: https://www.withmedley.com/privacy-policy
+- type: TermsOfService
+  url: https://www.withmedley.com/terms-of-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
