@@ -27,7 +27,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 image: https://cdn.prod.website-files.com/631f915c5b733532a18ff9eb/635b0085c41c461b9a674d38_Open%20Graph.png
